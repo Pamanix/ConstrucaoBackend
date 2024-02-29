@@ -10,12 +10,12 @@ function criar() {
   }
   
   function listar() {
-     /* if(produtos == NULL){
+      if(produtos.length === 0){
           console.log('lista vazia');
-      } else { */
+      } else { 
           produtos.forEach((produto) => console.log(produto.nome, "-", produto.preco));
       }
-  //}
+  }
   
   function buscar() {
     const nome = readline.question("Informe o nome do produto: ");
