@@ -1,7 +1,19 @@
 {
-    "produtos": [
-        {"id": 1, "nome": "banana", "preco": 15.00},
-        {"id": 2, "nome": "laranja", "preco": 20.00},
-        {"id": 3, "nome": "maça", "preco": 18.00}
-    ]
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "banana",
+      "preco": 15
+    },
+    {
+      "id": "3",
+      "nome": "maça",
+      "preco": 18
+    },
+    {
+      "id": "2c4",
+      "nome": "uva",
+      "preco": "8.90"
+    }
+  ]
 }
